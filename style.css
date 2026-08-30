@@ -201,3 +201,7 @@ form button:active {
 
     box-shadow: 1px 1px 0px black;
 }
+
+textarea{
+    resize: vertical;
+}
