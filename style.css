@@ -202,6 +202,8 @@ form button:active {
     box-shadow: 1px 1px 0px black;
 }
 
-textarea{
-    resize: vertical;
+textarea {
+  height: 150px;       /* Altura inicial */
+  width: 100px;        /* Largura inicial */
+  resize: vertical;    /* Permite puxar APENAS para baixo (evita quebrar o layout pros lados) */
 }
